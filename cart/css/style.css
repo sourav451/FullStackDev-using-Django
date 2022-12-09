@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: rgb(71, 150, 242);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav a{
+    color: azure;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 18px;
+}
+input{
+    padding: 8px;
+}
+input[type="text"]{
+    width: 300px;
+    border-radius: 3px 3px,3px,3px;
+}
+input[type="submit"]{
+    margin-left: -6px;
+    border: none;
+    padding: 9px;
+    border-radius: 3px 3px 3px 3px;
+
+}
