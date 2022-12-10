@@ -3,6 +3,9 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: rgb(225, 221, 195);
+}
 nav{
     background-color: rgb(71, 150, 242);
     color: aliceblue;
@@ -37,4 +40,112 @@ input[type="submit"]{
     padding: 9px;
     border-radius: 3px 3px 3px 3px;
 
+}
+/* Banner */
+#banner{
+    position: relative;
+    background-color: #fff;
+}
+.bimg{
+    width:100%;
+}
+.btext{
+    width: 350px;
+    position: absolute;
+    top: 0;
+    /* left: 10px; */
+    margin: 10px;
+    padding: 120px;
+}
+.btext h1{
+    font-size: 50px;
+    color: blue;
+}
+.btext p{
+    line-height: 1.6;
+    font-size: 18px;
+}
+.shop-now{
+    background-color: rgb(15, 55, 187);
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Products */
+.product-container{
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.product{
+    width: 175px;
+    margin: 5px;
+    padding: 8px;
+}
+.pimg{
+    height: 175px;
+    width: 150px;
+    display: block;
+}
+.pname{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    margin: 3px;
+}
+.offer{
+    background-color: rgb(17, 19, 66);
+    padding: auto;
+    color: white;
+    font-size: 11px;
+    border-radius: 2px;
+}
+.winter ,.electronics{
+    text-align: center;
+    background-image: url("../images/snow.png");
+    background-size: cover;
+}
+.winter h2 , .electronics h2{
+    margin-top: 70px;
+    line-height: 1.4;
+}
+.winter a,.electronics a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 3px
+}
+.electronics{
+    background-image: url("../images/electronics.jpg");
+}
+
+/* Contact Us */
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    color: #fff;
+    background-color: blueviolet;
+}
+.address{
+    line-height: 1.8;
+}
+
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid white;
 }
